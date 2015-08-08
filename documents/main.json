@@ -1,15 +1,15 @@
 {
     "items":[
         {"image":"./Images/rajma1.jpg",
-          "item":"Rajma Chawal(Red Lentil)",
+          "item":"Rajma(Red Lentil)",
           "price":"7.99"
         },
          {"image":"./Images/hyderabadi-biryani.jpg",
-          "item":"Chicken Biryani(Chicken Flavoured Rice)",
+          "item":"Chicken Biryani(Rice)",
           "price":"9.88"
         },
          {"image":"./Images/bisi_bele_bath.jpg",
-          "item":"Bisi Bele Bath(Lentil Rice)",
+          "item":"BisiBeleBath(Lentil Rice)",
           "price":"8.44"
         },
          {"image":"./Images/dum-aloo.jpg",
@@ -25,12 +25,12 @@
           "price":".50"
         },
          {"image":"./Images/paneer-butter-masala.jpg",
-          "item":"Paneer Butter Masala(Diced Ricota Cheese)",
+          "item":"Paneer Tika Masala",
           "price":"7.99"
         },
          {"image":"./Images/payasam.jpg",
           "item":"Payasam(Sweet)",
-          "price":"234233.99"
+          "price":"3.99"
         }
     ]
 }
