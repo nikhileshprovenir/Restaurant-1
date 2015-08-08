@@ -1,0 +1,210 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 26, 2014, 11:33:38 AM
+    Author     : amani.mutyala
+*/
+
+*{
+    margin:0px;
+    padding:0px;
+}
+body,html{
+    height:98%;  
+}
+body{
+    background-image: url('../Images/wood_bag.jpg');
+}
+
+.header{
+    border: 2px solid;
+    width: 80%;
+    height: 13%;
+    /* position: absolute; */
+    /* left: 11%; */
+    background-color: whitesmoke;
+    opacity: 0.7;
+    display: block;
+    margin: auto;
+}
+.welcomeMsg{
+    float: left;
+    width: 30%;
+    height: 100%;
+
+    line-height: 80px;
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+.resName{
+    float: left;
+    width: 30%;
+    height: 100%;
+    line-height: 80px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+}
+.logo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    width: 40%;
+    text-align: center;
+    float: left;
+    height: 100%;
+}
+
+.logo img{
+    width: 76%;
+    height: 49%;
+}
+
+.logo span{
+    display:block;
+}
+
+
+.menu{
+    width: 80%;
+    opacity: 0.5;
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    color: wheat;
+    margin: auto;
+
+}
+
+.main_container{
+    border: solid 2px;
+    height: 78%;
+    width: 80%;
+    /* position: absolute; */
+    /* left: 11%; */
+    /* top: 21%; */
+    background-color: rgba(248, 248, 248, 0.67);
+
+    margin: auto;
+
+}
+
+.main_container img[alt='food picture']{
+    display: block;
+    /* margin-left: auto; */
+    margin: auto;
+    padding: 12px;
+    margin: auto;
+    width: 69%;
+    border-radius: 37px;
+}
+
+.menu_content li{
+    display: inline-block;
+    padding: 0px 37px;
+    background-color: whitesmoke;
+    color: black;
+    cursor: pointer;
+    margin-bottom: 6px;
+    margin-top: 5px;
+}
+.menu_content{
+
+}
+
+.menu span{
+    font-size: 26px;
+    text-align: center;
+    float: left;
+    margin: 0px 86px;
+}
+a{
+    text-decoration: none !important;
+}
+
+.order_list{
+    border: solid 1px black;
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+.items_menu{
+    border: solid 1px black;
+    width: 69.5%;
+    height: 100%;
+    float: right;
+    overflow:auto;
+
+}
+.order_list>span { 
+    display: block;
+    margin: 15px;
+    height: 62px;
+    text-align: center;
+    line-height: 3;
+    background-color: rgba(88, 31, 5, 0.77);
+    font-family: 'Montserrat', sans-serif;
+    color: burlywood;
+}
+.highlight{
+    display: block;
+    margin: 15px;
+    height: 83px;
+    text-align: center;
+    line-height: 3;
+    background-color: rgba(88, 31, 5, 0.77);
+    font-family: 'Montserrat', sans-serif;
+    color: burlywood;
+    position: absolute;
+    bottom: 50px;
+    width: 22%;
+}
+
+.details{
+    background-color: rgba(88, 31, 5, 0.77);
+    width: 152px;
+    color: burlywood;
+    font-family: 'Montserrat', sans-serif;
+    height:62px;
+    font-size: 12px;
+    text-align: center;
+}
+.order{
+    margin: 10px 55px;
+    cursor: pointer;
+}
+.item{
+    padding: 10px;
+    box-sizing: border-box;
+    float: left;
+    width: 25%
+}
+.bill{
+    margin:auto;
+    font-family: 'Montserrat', sans-serif;
+    color:rgba(119, 12, 12, 0.98);
+}
+.text{
+    text-align: center;
+
+}
+.cookContainer{
+    height:100%;
+}
+.tiles{
+    float: left;
+    margin: 6px 20px 2px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: rgba(95, 36, 8, 0.9);
+    font-family: 'Montserrat', sans-serif;
+    color: burlywood;
+    font-size: 16px;
+    width: 21%;
+}
+.orders{
+   
+}

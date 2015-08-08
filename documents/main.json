@@ -1,0 +1,36 @@
+{
+    "items":[
+        {"image":"./Images/rajma1.jpg",
+          "item":"Rajma Chawal",
+          "price":"200"
+        },
+         {"image":"./Images/hyderabadi-biryani.jpg",
+          "item":"Hyderabadi Biryani",
+          "price":"290"
+        },
+         {"image":"./Images/bisi_bele_bath.jpg",
+          "item":"Bisi Bele Bath",
+          "price":"200"
+        },
+         {"image":"./Images/dum-aloo.jpg",
+          "item":"Dum Aloo",
+          "price":"200"
+        },
+         {"image":"./Images/kabab.jpg",
+          "item":"Chicken Reshmi Kabab",
+          "price":"200"
+        },
+         {"image":"./Images/naan.jpg",
+          "item":"Naan",
+          "price":"50"
+        },
+         {"image":"./Images/paneer-butter-masala.jpg",
+          "item":"Paneer Butter Masala",
+          "price":"200"
+        },
+         {"image":"./Images/payasam.jpg",
+          "item":"Payasam",
+          "price":"200"
+        }
+    ]
+}

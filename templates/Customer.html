@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<div class="order_list">
+    <span>I have ordered</span>
+    <div style="overflow: auto; height: 275px">
+    <table class='bill'>
+        <tr>
+            <th width='10%'>Qty</th>
+            <th width='60%'>Items</th>
+            <th width='30%'>Price</th>
+        </tr>
+        <tr ng-repeat="ord in ordered_items">
+            <td class='text'>{{ord.qty}}</td>
+            <td class='text'>{{ord.name}}</td>
+            <td class='text'>{{ord.price}}</td>
+            <td ><i ng-click="remove(ord)" style="cursor: pointer" class="fa fa-times"></i></td>
+        </tr>
+    </table>
+        
+    </div>
+  
+    <div class="highlight">Total :: {{total}}
+        <div style="cursor: pointer" ng-click="submit_order()">Order</div>
+    </div>
+   
+    
+</div>
+<div class='items_menu'>
+    <div class="item" ng-repeat="it in items">
+        <img alt="{{it.item}} picture" ng-src='{{it.image}}'>
+        <div class="details">
+            <p> {{it.item}}<br>
+                INR {{it.price}}</p>
+            <div class="order" ng-click="order(it)">Order</div>            
+        </div>
+    </div>
+</div>

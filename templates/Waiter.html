@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<div class="cookContainer" ng-controller="waiter">
+    <div class="head">
+        <div class="tiles">Order No</div>
+        <div class="tiles">Item</div>
+        <div class="tiles">Quantity</div>
+        <div class="tiles">Status</div>
+    </div>
+    <div class="orders">
+        <div ng-repeat="ord in toBeDeli">
+            <div class="tiles" style="background-color: rgba(95, 36, 8, 0.63)">{{ord.order_no}}</div>
+            <div class="tiles" style="background-color: rgba(95, 36, 8, 0.63)">{{ord.name}}</div>
+            <div class="tiles" style="background-color: rgba(95, 36, 8, 0.63)">{{ord.qty}}</div>
+            <div class="tiles" style="background-color: rgba(95, 36, 8, 0.63)" >
+                <select ng-model="status" ng-change="change(status, $index)">
+                    <option value="TD" selected>To be delivered </option>
+                    <option value="DD">Delivered </option>
+                   
+                </select>
+
+            </div>
+        </div>
+    </div>
+</div>

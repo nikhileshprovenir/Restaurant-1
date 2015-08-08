@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Styles/main.css" type="text/css">
+        <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+        <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+        <script src="scripts/main.js"></script>
+    </head>
+    <body ng-app="categoryModule">
+        <div class="header">
+            <div class="welcomeMsg">Welcome To</div>
+            <div class="logo">
+                <img alt="logo" src="Images/mirchi.png">
+                <span>My Kitchen</span>
+            </div>
+            <div class="resName">Restaurant</div>
+
+
+        </div>
+       
+        <div class="menu">
+            <span>I am a </span>
+<div class="menu_content">
+    <ul>
+        <li><a href="#/customer">Customer</a></li>
+        <li><a href="#/cook">Cook</a></li>
+        <li><a href="#/waiter">Waiter</a></li>
+    </ul>
+    
+</div>
+                
+                
+        </div>
+        <div class="main_container" ng-view>
+  
+        </div>
+    
+
+
+    </body>
+</html>
